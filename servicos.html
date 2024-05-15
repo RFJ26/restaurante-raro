@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC Projeto</title>
+    <link rel="shortcut icon" href="Imagens/Refúgio do raro.png" type="image/x-icon">
+    <link rel="stylesheet" href="servicos.css">
+</head>
+<body>
+    <!--Header-->
+    <header class = "header">
+
+        <img src="Imagens/Refúgio do raro.png" alt="">        
+        <h1 class = "logo"> Refúgio do Raro</h1>
+    
+        <nav class ="navbar">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">Sobre Nós</a>
+            <a href="menu.html">Menu</a>
+            <a href="servicos.html">Serviços</a>
+        </nav>
+  
+                
+        </header>
+        <main>
+            <div class="reservation-form">
+                <h1>Reserva</h1>
+                <form action="#" method="post">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="phone">Númeor de Telemóvel:</label>
+                    <input type="tel" id="phone" name="phone" required>
+        
+                    <label for="guests">Número De Pessoas:</label>
+                    <input type="number" id="guests" name="guests" min="1" max="20" required>
+        
+                    <label for="date">Data:</label>
+                    <input type="date" id="date" name="date" required>
+        
+                    <label for="time">Hora:</label>
+                    <input type="time" id="time" name="time" required>
+        
+                    <label for="requests">Informações Adicionais:</label>
+                    <textarea id="requests" name="requests" rows="4"></textarea>
+        
+                    <button type="submit" onclick="
+                        alert('Obrigado por reservar um lugar no Refúgio do Raro!');">Reservar</button>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>&copy; &reg;   2024 Refúgio do Raro</p>
+          </footer>
+    
+</body>
+</html>
